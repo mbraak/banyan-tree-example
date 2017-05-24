@@ -25,7 +25,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
-    "banyan-react-tree": "^0.0.1",
+    "banyan-react-tree": "^0.0.2",
     "dinosaur-data": "^1.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
