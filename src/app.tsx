@@ -11,15 +11,15 @@ function renderTitle(node: Node) {
 
     return (
         <span>
-            { url
-                ? <a href={url} className="title" target="_blank" tabIndex={-1}>{name}</a>
-                : name
-            }
+            {url
+                ? <a href={url} className="title" target="_blank" tabIndex={-1}>
+                      {name}
+                  </a>
+                : name}
             <span className="rank">{rank}</span>
-            { species_count
-                ? <span className="species-count">{species_count } species</span>
-                : null
-            }
+            {species_count
+                ? <span className="species-count">{species_count} species</span>
+                : null}
         </span>
     );
 }
